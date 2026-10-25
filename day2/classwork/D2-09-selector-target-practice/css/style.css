@@ -1,0 +1,29 @@
+/* D2-09 Selector target practice
+   Write ONE rule under each target. Do not change index.html. */
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0 auto;
+  max-width: 760px;
+  padding: 16px;
+}
+
+.dish {
+  padding: 4px 12px;
+  margin-bottom: 8px;
+}
+
+/* Target 1: every paragraph -> grey text (#666666) */
+
+
+/* Target 2: only the veg dishes -> light green background (#dff3dc) */
+
+
+/* Target 3: today's special -> bold and bigger (1.5rem) */
+
+
+/* Target 4: only the links inside the nav -> no underline */
+
+
+/* Target 5: dishes that are BOTH dish and spicy -> 3px solid red border */
+

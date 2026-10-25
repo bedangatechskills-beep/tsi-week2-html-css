@@ -1,0 +1,28 @@
+/* D2-11 Theme the canteen menu
+   Palette: navy #14213D · cherry #990011 · cream #FDF6EC */
+
+body {
+  font-family: "Times New Roman";
+  font-size: 16px;
+  margin: 0 auto;
+  max-width: 640px;
+  padding: 16px;
+}
+
+h1 {
+  font-size: 40px;
+}
+
+h2 {
+  font-size: 24px;
+}
+
+td,
+th {
+  border: 1px solid gray;
+  padding: 8px 16px;
+}
+
+.note {
+  font-size: 14px;
+}

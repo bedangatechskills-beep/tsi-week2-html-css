@@ -1,0 +1,18 @@
+/* Calling students in class */
+
+/* "Everyone!" (element selector) */
+li {
+  color: #14213d;
+  font-size: 1.25rem;
+}
+
+/* "Red team!" (class selector) */
+.red-team {
+  color: #990011;
+  font-weight: bold;
+}
+
+/* "Aarav, by name!" (id selector) */
+#aarav {
+  background-color: #ffe08a;
+}

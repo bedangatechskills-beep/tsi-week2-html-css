@@ -1,0 +1,90 @@
+
+   Config loaded: .htmlhintrc
+
+   Config loaded: .htmlhintrc
+
+   D:\TSI AI powered Web App Devloper\Daily Planner +PPT\week2\day1\instructor-demos\B10-validate\step-01-before\index.html
+      L1 |<html lang="en">
+          ^ Doctype must be declared before any non-comment content. (doctype-first)
+      L5 |    <title>Kathmandu Gallery
+              ^ Tag must be paired, missing: [ </title> ], start tag match failed [ <title> ] on line 5. (tag-pair)
+      L9 |    <h1 id="top">Photos</h1>
+                 ^ The id value [ top ] must be unique. (id-unique)
+      L11 |      <img src="images/swayambhu.svg" width="300">
+                     ^ An alt attribute must be present on <img> elements. (alt-require)
+      L12 |      <figcaption>Swayambhunath</figcation>
+                                          ^ Tag must be paired, no start tag: [ </figcation> ] (tag-pair)
+      L12 |      <figcaption>Swayambhunath</figcation>
+                 ^ Tag must be paired, missing: [ </figcaption> ], start tag match failed [ <figcaption> ] on line 12. (tag-pair)
+
+   Config loaded: .htmlhintrc
+
+   Config loaded: .htmlhintrc
+
+   Config loaded: .htmlhintrc
+
+   Config loaded: .htmlhintrc
+
+   Config loaded: .htmlhintrc
+
+   Config loaded: .htmlhintrc
+
+   Config loaded: .htmlhintrc
+
+   Config loaded: .htmlhintrc
+
+   D:\TSI AI powered Web App Devloper\Daily Planner +PPT\week2\day1\instructor-demos\B3-skeleton\step-05-htmlhint-demo\index.html
+      L1 |<html lang="en">
+          ^ Doctype must be declared before any non-comment content. (doctype-first)
+      L10 |    <img src="images/momo.svg" width="200">
+                   ^ An alt attribute must be present on <img> elements. (alt-require)
+      L8 |    <h1>Hello, I am Sunita
+              ^ Tag must be paired, missing: [ </h1> ], start tag match failed [ <h1> ] on line 8. (tag-pair)
+
+   Config loaded: .htmlhintrc
+
+   Config loaded: .htmlhintrc
+
+   Config loaded: .htmlhintrc
+
+   Config loaded: .htmlhintrc
+
+   Config loaded: .htmlhintrc
+
+   Config loaded: .htmlhintrc
+
+   Config loaded: .htmlhintrc
+
+   Config loaded: .htmlhintrc
+
+   Config loaded: .htmlhintrc
+
+   Config loaded: .htmlhintrc
+
+   Config loaded: .htmlhintrc
+
+   Config loaded: .htmlhintrc
+
+   Config loaded: .htmlhintrc
+
+   Config loaded: .htmlhintrc
+
+   Config loaded: .htmlhintrc
+
+   Config loaded: .htmlhintrc
+
+   Config loaded: .htmlhintrc
+
+   Config loaded: .htmlhintrc
+
+   Config loaded: .htmlhintrc
+
+   Config loaded: .htmlhintrc
+
+   Config loaded: .htmlhintrc
+
+   Config loaded: .htmlhintrc
+
+   Config loaded: .htmlhintrc
+
+Scanned 33 files, found 9 errors in 2 files (99 ms)

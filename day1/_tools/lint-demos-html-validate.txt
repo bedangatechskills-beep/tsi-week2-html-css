@@ -1,0 +1,39 @@
+
+D:\TSI AI powered Web App Devloper\Daily Planner +PPT\week2\day1\instructor-demos\B10-validate\step-01-before\index.html
+  5:12  error  failed to tokenize "Kathmandu ...", expected </title>  parser-error
+
+D:\TSI AI powered Web App Devloper\Daily Planner +PPT\week2\day1\instructor-demos\B3-skeleton\step-01-doctype-html-lang\index.html
+  2:2  error  <html> element must have <head> as content  element-required-content
+  2:2  error  <html> element must have <body> as content  element-required-content
+
+D:\TSI AI powered Web App Devloper\Daily Planner +PPT\week2\day1\instructor-demos\B3-skeleton\step-02-head-meta-title\index.html
+  2:2  error  <html> element must have <body> as content  element-required-content
+
+D:\TSI AI powered Web App Devloper\Daily Planner +PPT\week2\day1\instructor-demos\B3-skeleton\step-05-htmlhint-demo\index.html
+   1:1  error  Document is missing doctype                          missing-doctype
+   8:6  error  Unclosed element '<h1>'                              close-order
+   9:6  error  <p> element is not permitted as content under <h1>   element-permitted-content
+  10:6  error  <img> is missing required "alt" attribute            wcag/h37
+  11:4  error  End tag '</body>' seen but there were open elements  close-order
+  12:2  error  End tag '</html>' seen but there were open elements  close-order
+
+D:\TSI AI powered Web App Devloper\Daily Planner +PPT\week2\day1\instructor-demos\B8-forms\step-01-form-label-text-email\index.html
+  10:6  error  <form> element must have a submit button  wcag/h32
+
+D:\TSI AI powered Web App Devloper\Daily Planner +PPT\week2\day1\instructor-demos\B8-forms\step-02-radio-checkbox\index.html
+  10:6  error  <form> element must have a submit button  wcag/h32
+
+D:\TSI AI powered Web App Devloper\Daily Planner +PPT\week2\day1\instructor-demos\B8-forms\step-03-select-textarea\index.html
+  10:6  error  <form> element must have a submit button  wcag/h32
+
+✖ 13 problems (13 errors, 0 warnings)
+  1 error and 0 warnings potentially fixable with the `--fix` option.
+
+More information:
+  https://html-validate.org/rules/element-required-content.html
+  https://html-validate.org/rules/missing-doctype.html
+  https://html-validate.org/rules/close-order.html
+  https://html-validate.org/rules/element-permitted-content.html
+  https://html-validate.org/rules/wcag/h37.html
+  https://html-validate.org/rules/wcag/h32.html
+

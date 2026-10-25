@@ -1,0 +1,75 @@
+/* D2-FF3 Specificity duel: predict each colour BEFORE you look at the page */
+body {
+  font-family: Arial, sans-serif;
+  font-size: 1.25rem;
+  padding: 24px;
+}
+
+.intro {
+  color: black;
+  font-size: 1rem;
+}
+
+/* Puzzle 1 */
+p {
+  color: blue;
+}
+
+.note {
+  color: green;
+}
+
+/* Puzzle 2 */
+#p2 {
+  color: red;
+}
+
+/* Puzzle 3 */
+.twice {
+  color: orange;
+}
+
+.twice {
+  color: purple;
+}
+
+/* Puzzle 4 */
+.p4 {
+  color: teal;
+}
+
+div p {
+  color: brown;
+}
+
+/* Puzzle 5 */
+.a.b {
+  color: crimson;
+}
+
+.b {
+  color: gray;
+}
+
+/* Puzzle 6 */
+#p6 {
+  color: red;
+}
+
+/* Puzzle 7 */
+.parent {
+  color: red;
+}
+
+span {
+  color: green;
+}
+
+/* Puzzle 8 */
+#duel h2 {
+  color: maroon;
+}
+
+.title.big {
+  color: gold;
+}

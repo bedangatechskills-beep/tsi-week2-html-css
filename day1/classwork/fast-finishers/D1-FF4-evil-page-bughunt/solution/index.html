@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TSI Canteen</title>
+  </head>
+  <body>
+    <h1>TSI Canteen</h1>
+    <p>Hot food for hungry coders. Open 7 AM to 5 PM.</p>
+    <img src="images/momo.svg" alt="A plate of steamed momo" width="250">
+    <p><a href="#menu">See the menu</a> or <a href="#order">order a plate</a>.</p>
+    <h2 id="menu">Menu</h2>
+    <p>Today we have:</p>
+    <ul>
+      <li>Veg momo: Rs.&nbsp;120</li>
+      <li>Chicken chowmein: Rs.&nbsp;140</li>
+      <li>Milk tea: Rs.&nbsp;25</li>
+    </ul>
+    <h2 id="specials">Specials</h2>
+    <ul>
+      <li>Aloo paratha</li>
+      <li>Sel roti</li>
+    </ul>
+    <h2 id="order">Order</h2>
+    <form method="get">
+      <p>
+        <label for="plates">Plates</label>
+        <input type="number" id="plates" name="plates" min="1" value="1">
+      </p>
+      <button type="submit">Order</button>
+    </form>
+  </body>
+</html>

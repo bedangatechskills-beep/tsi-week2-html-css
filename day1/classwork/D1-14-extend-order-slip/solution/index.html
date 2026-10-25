@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TSI Canteen Order Slip</title>
+  </head>
+  <body>
+    <h1>TSI Canteen order slip</h1>
+    <p>Order your lunch before 11 AM. Didi will keep it warm for you.</p>
+    <form method="get">
+      <p>
+        <label for="name">Your name</label>
+        <input type="text" id="name" name="name" required>
+      </p>
+      <p>
+        <label for="phone">Phone</label>
+        <input type="tel" id="phone" name="phone" placeholder="98XXXXXXXX">
+      </p>
+      <fieldset>
+        <legend>Your batch</legend>
+        <input type="radio" id="morning" name="batch" value="morning">
+        <label for="morning">Morning</label>
+        <input type="radio" id="evening" name="batch" value="evening">
+        <label for="evening">Evening</label>
+      </fieldset>
+      <p>
+        <label for="momo">Which momo?</label>
+        <select id="momo" name="momo">
+          <option value="chicken">Chicken momo</option>
+          <option value="veg">Veg momo</option>
+          <option value="buff">Buff momo</option>
+        </select>
+      </p>
+      <p>
+        <label for="plates">Plates</label>
+        <input type="number" id="plates" name="plates" min="1" max="5" value="1">
+      </p>
+      <p>
+        <label for="pickup">Pickup date (bonus)</label>
+        <input type="date" id="pickup" name="pickup">
+      </p>
+      <p>
+        <input type="checkbox" id="achar" name="extras" value="achar">
+        <label for="achar">Extra achar</label>
+        <input type="checkbox" id="soup" name="extras" value="soup">
+        <label for="soup">Extra soup</label>
+      </p>
+      <p>
+        <label for="tshirt">Favourite colour for your TSI T-shirt (bonus)</label>
+        <input type="color" id="tshirt" name="tshirt" value="#990011">
+      </p>
+      <p>
+        <label for="notes">Notes for Didi</label><br>
+        <textarea id="notes" name="notes" rows="3" cols="40"></textarea>
+      </p>
+      <button type="submit">Send order</button>
+    </form>
+  </body>
+</html>

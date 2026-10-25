@@ -1,0 +1,146 @@
+
+   Config loaded: .htmlhintrc
+
+   Config loaded: .htmlhintrc
+
+   Config loaded: .htmlhintrc
+
+   D:\TSI AI powered Web App Devloper\Daily Planner +PPT\week2\day1\classwork\D1-02-emmet-speed-drill\index.html
+      L2 |
+          ^ Doctype must be declared before any non-comment content. (doctype-first)
+
+   Config loaded: .htmlhintrc
+
+   Config loaded: .htmlhintrc
+
+   D:\TSI AI powered Web App Devloper\Daily Planner +PPT\week2\day1\classwork\D1-03-skeleton-from-memory\index.html
+      L2 |
+          ^ Doctype must be declared before any non-comment content. (doctype-first)
+
+   Config loaded: .htmlhintrc
+
+   D:\TSI AI powered Web App Devloper\Daily Planner +PPT\week2\day1\classwork\D1-04-broken-skeleton\index.html
+      L1 |<html>
+               ^ An lang attribute must be present on <html> elements. (html-lang-require)
+      L1 |<html>
+          ^ Doctype must be declared before any non-comment content. (doctype-first)
+      L6 |  </head>
+            ^ <title> must be present in <head> tag. (title-require)
+      L10 |    <p>I live in <strong>Kathmandu</p></strong>, near Dillibazar.
+                            ^ Tag must be paired, missing: [ </strong> ], start tag match failed [ <strong> ] on line 10. (tag-pair)
+      L10 |    <p>I live in <strong>Kathmandu</p></strong>, near Dillibazar.
+                                                 ^ Tag must be paired, no start tag: [ </strong> ] (tag-pair)
+      L8 |    <h1>Hello, I am Aarav
+              ^ Tag must be paired, missing: [ </h1> ], start tag match failed [ <h1> ] on line 8. (tag-pair)
+
+   Config loaded: .htmlhintrc
+
+   Config loaded: .htmlhintrc
+
+   D:\TSI AI powered Web App Devloper\Daily Planner +PPT\week2\day1\classwork\D1-06-canteen-news-bughunt\index.html
+      L18 |    </quote>
+               ^ Tag must be paired, no start tag: [ </quote> ] (tag-pair)
+      L19 |... <p>Lunch is from 12:30 to 1:30. Please <em>do not leave plates on the stairs.</p>
+                                                      ^ Tag must be paired, missing: [ </em> ], start tag match failed [ <em> ] on line 19. (tag-pair)
+      L16 |    <blockquote>
+               ^ Tag must be paired, missing: [ </blockquote></p> ], start tag match failed [ <blockquote> ] on line 16. (tag-pair)
+
+   Config loaded: .htmlhintrc
+
+   D:\TSI AI powered Web App Devloper\Daily Planner +PPT\week2\day1\classwork\D1-07-broken-lists\index.html
+      L19 |      <il>Garlic</li>
+                           ^ Tag must be paired, no start tag: [ </li> ] (tag-pair)
+      L19 |      <il>Garlic</li>
+                 ^ Tag must be paired, missing: [ </il> ], start tag match failed [ <il> ] on line 19. (tag-pair)
+
+   Config loaded: .htmlhintrc
+
+   Config loaded: .htmlhintrc
+
+   Config loaded: .htmlhintrc
+
+   Config loaded: .htmlhintrc
+
+   Config loaded: .htmlhintrc
+
+   Config loaded: .htmlhintrc
+
+   Config loaded: .htmlhintrc
+
+   Config loaded: .htmlhintrc
+
+   Config loaded: .htmlhintrc
+
+   Config loaded: .htmlhintrc
+
+   Config loaded: .htmlhintrc
+
+   D:\TSI AI powered Web App Devloper\Daily Planner +PPT\week2\day1\classwork\D1-15-momo-house-repair\index.html
+      L14 |      <a href="about.html">About
+                 ^ Tag must be paired, missing: [ </a> ], start tag match failed [ <a href="about.html"> ] on line 14. (tag-pair)
+      L17 |    <img src="images/momo.svg" width="320">
+                   ^ An alt attribute must be present on <img> elements. (alt-require)
+
+   Config loaded: .htmlhintrc
+
+   Config loaded: .htmlhintrc
+
+   Config loaded: .htmlhintrc
+
+   Config loaded: .htmlhintrc
+
+   Config loaded: .htmlhintrc
+
+   Config loaded: .htmlhintrc
+
+   D:\TSI AI powered Web App Devloper\Daily Planner +PPT\week2\day1\classwork\fast-finishers\D1-FF4-evil-page-bughunt\index.html
+      L11 |    <img src="images/momo.svg" width="250">
+                   ^ An alt attribute must be present on <img> elements. (alt-require)
+      L21 |    <h2 id="menu">Specials</h2>
+                  ^ The id value [ menu ] must be unique. (id-unique)
+
+   Config loaded: .htmlhintrc
+
+   D:\TSI AI powered Web App Devloper\Daily Planner +PPT\week2\day1\classwork\fast-finishers\D1-FF5-notice-board-bughunt\index.html
+      L28 |    </hr>
+               ^ Tag must be paired, no start tag: [ </hr> ] (tag-pair)
+      L42 |    </ul>
+               ^ Tag must be paired, no start tag: [ </ul> ] (tag-pair)
+      L39 |    <ol>
+               ^ Tag must be paired, missing: [ </ol> ], start tag match failed [ <ol> ] on line 39. (tag-pair)
+      L11 |  <head>
+             ^ Tag must be paired, missing: [ </head></head> ], start tag match failed [ <head> ] on line 11. (tag-pair)
+
+   Config loaded: .htmlhintrc
+
+   Config loaded: .htmlhintrc
+
+   Config loaded: .htmlhintrc
+
+   D:\TSI AI powered Web App Devloper\Daily Planner +PPT\week2\day1\homework\D1-HW1-kathmandu-treks-repair\index.html
+      L6 |    <title>Kathmandu Treks
+              ^ Tag must be paired, missing: [ </title> ], start tag match failed [ <title> ] on line 6. (tag-pair)
+
+   Config loaded: .htmlhintrc
+
+   Config loaded: .htmlhintrc
+
+   Config loaded: .htmlhintrc
+
+   Config loaded: .htmlhintrc
+
+   Config loaded: .htmlhintrc
+
+   Config loaded: .htmlhintrc
+
+   Config loaded: .htmlhintrc
+
+   D:\TSI AI powered Web App Devloper\Daily Planner +PPT\week2\day1\homework\D1-HW4-thamel-guesthouse-replay\index.html
+      L1 |<html lang="en">
+          ^ Doctype must be declared before any non-comment content. (doctype-first)
+      L5 |  </head>
+            ^ <title> must be present in <head> tag. (title-require)
+      L9 |    <img src="images/guesthouse.svg" width="360">
+                  ^ An alt attribute must be present on <img> elements. (alt-require)
+
+Scanned 37 files, found 25 errors in 10 files (121 ms)

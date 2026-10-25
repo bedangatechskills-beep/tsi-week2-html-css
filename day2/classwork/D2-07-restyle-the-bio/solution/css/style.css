@@ -1,0 +1,21 @@
+/* Sunita's bio: change the 4 values marked in the README */
+body {
+  background-color: #fdf6ec;
+  font-family: Arial, sans-serif;
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 24px;
+}
+
+h1 {
+  color: #990011;
+}
+
+p {
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+a {
+  color: #14213d;
+}

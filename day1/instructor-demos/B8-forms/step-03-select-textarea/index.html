@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Order Slip</title>
+  </head>
+  <body>
+    <h1>TSI Canteen order slip</h1>
+    <form method="get">
+      <p>
+        <label for="name">Your name</label>
+        <input type="text" id="name" name="name" required>
+      </p>
+      <p>
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email">
+      </p>
+      <p>Batch:</p>
+      <p>
+        <input type="radio" id="morning" name="batch" value="morning">
+        <label for="morning">Morning</label>
+        <input type="radio" id="evening" name="batch" value="evening">
+        <label for="evening">Evening</label>
+      </p>
+      <p>
+        <input type="checkbox" id="achar" name="extras" value="achar">
+        <label for="achar">Extra achar</label>
+      </p>
+      <p>
+        <label for="momo">Which momo?</label>
+        <select id="momo" name="momo">
+          <option value="chicken">Chicken</option>
+          <option value="veg">Veg</option>
+        </select>
+      </p>
+      <p>
+        <label for="notes">Notes</label><br>
+        <textarea id="notes" name="notes" rows="3" cols="40"></textarea>
+      </p>
+    </form>
+  </body>
+</html>

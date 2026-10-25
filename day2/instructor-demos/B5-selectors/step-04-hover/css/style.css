@@ -1,0 +1,39 @@
+/* Calling students in class */
+
+/* "Everyone!" (element selector) */
+li {
+  color: #14213d;
+  font-size: 1.25rem;
+}
+
+/* "Red team!" (class selector) */
+.red-team {
+  color: #990011;
+  font-weight: bold;
+}
+
+/* "Aarav, by name!" (id selector) */
+#aarav {
+  background-color: #ffe08a;
+}
+
+/* "All headings!" (grouping) */
+h1,
+h2 {
+  font-family: Georgia, serif;
+}
+
+/* "Red team in row 2!" (descendant) */
+.row-2 .red-team {
+  text-decoration: underline;
+}
+
+/* "Red team leader!" (two classes, no space) */
+.red-team.leader {
+  border: 2px solid #990011;
+}
+
+/* "When the mouse is on you" (pseudo-class) */
+li:hover {
+  background-color: #dfe3ea;
+}

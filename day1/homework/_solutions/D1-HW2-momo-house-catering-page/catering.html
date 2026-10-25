@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Catering — Momo House</title>
+    <style>
+      /* Lines around the cells, so you can see them. CSS comes on Day 2. */
+      table, th, td { border: 1px solid #555; border-collapse: collapse; padding: 6px 10px; }
+    </style>
+  </head>
+  <body>
+    <img src="images/logo-momo-house.svg" alt="Momo House logo" width="160">
+    <p>
+      <a href="index.html">Home</a> |
+      <a href="menu.html">Menu</a> |
+      <a href="order.html">Order</a> |
+      <a href="catering.html">Catering</a> |
+      <a href="about.html">About</a>
+    </p>
+    <h1>Catering for your event</h1>
+    <p>Wedding, birthday or office party? Didi brings the momo to you, anywhere in Kathmandu valley.</p>
+    <table>
+      <caption>Catering packages (price per person)</caption>
+      <thead>
+        <tr><th scope="col">Package</th><th scope="col">What you get</th><th scope="col">Price</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>Small</td><td>10 steam momo, achar, milk tea</td><td>Rs. 250</td></tr>
+        <tr><td>Party</td><td>15 momo (steam + fried), achar, soft drink</td><td>Rs. 400</td></tr>
+        <tr><td>Wedding</td><td>20 momo (3 kinds), jhol, sel roti, dessert</td><td>Rs. 650</td></tr>
+      </tbody>
+      <tfoot>
+        <tr><td colspan="3">Minimum 20 people. Free delivery inside Ring Road.</td></tr>
+      </tfoot>
+    </table>
+    <h2>Ask for catering</h2>
+    <form method="get">
+      <p>
+        <label for="event-date">Date of your event</label>
+        <input type="date" id="event-date" name="event-date" required>
+      </p>
+      <p>
+        <label for="people">Number of people</label>
+        <input type="number" id="people" name="people" min="20" max="500" value="20" required>
+      </p>
+      <fieldset>
+        <legend>Package</legend>
+        <input type="radio" id="small" name="package" value="small">
+        <label for="small">Small</label>
+        <input type="radio" id="party" name="package" value="party">
+        <label for="party">Party</label>
+        <input type="radio" id="wedding" name="package" value="wedding">
+        <label for="wedding">Wedding</label>
+      </fieldset>
+      <p>
+        <label for="notes">Notes (address, veg guests, time)</label><br>
+        <textarea id="notes" name="notes" rows="4" cols="40"></textarea>
+      </p>
+      <button type="submit">Send request</button>
+    </form>
+    <p>&copy; 2026 Momo House, Dillibazar, Kathmandu</p>
+  </body>
+</html>

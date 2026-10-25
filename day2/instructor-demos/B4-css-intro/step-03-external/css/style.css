@@ -1,0 +1,19 @@
+/* Sunita's bio: one outfit for every page that links here */
+body {
+  background-color: #fdf6ec;
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  color: #990011;
+}
+
+p {
+  font-size: 18px;
+  color: #2a3f63;
+}
+
+/* the cascade: the last rule wins */
+h1 {
+  color: #14213d;
+}

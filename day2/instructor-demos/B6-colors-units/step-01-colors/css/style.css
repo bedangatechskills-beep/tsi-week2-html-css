@@ -1,0 +1,16 @@
+/* Paint shop: four ways to name a colour */
+body {
+  background-color: rgb(253, 246, 236);
+}
+
+h1 {
+  color: #990011;
+}
+
+.price {
+  color: navy;
+}
+
+.price-card {
+  background-color: rgba(20, 33, 61, 0.1);
+}

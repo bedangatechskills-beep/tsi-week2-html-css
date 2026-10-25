@@ -1,0 +1,35 @@
+/* TSI Canteen price page */
+body {
+  font-family: "Momo Sans", Arial, sans-serif;
+  background-color: #fdf6ec;
+  color: #2a3f63;
+  margin: 0;
+  padding: 24px;
+}
+
+h1 {
+  color: #14213d;
+  font-size: 2.5rem;
+}
+
+.price-board {
+  width: 300px;
+  background-color: white;
+  border: 3px solid #14213d;
+  padding: 16px;
+}
+
+.price {
+  color: #cc0000;
+  font-weight: bold;
+}
+
+.special {
+  font-size: 1.5rem;
+  color: #990011;
+}
+
+.note {
+  max-width: 420px;
+  line-height: 1.5;
+}

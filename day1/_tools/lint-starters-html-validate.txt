@@ -1,0 +1,145 @@
+
+D:\TSI AI powered Web App Devloper\Daily Planner +PPT\week2\day1\classwork\D1-02-emmet-speed-drill\index.html
+  1:1  error  Document is missing doctype  missing-doctype
+
+D:\TSI AI powered Web App Devloper\Daily Planner +PPT\week2\day1\classwork\D1-03-skeleton-from-memory\index.html
+  1:1  error  Document is missing doctype  missing-doctype
+
+D:\TSI AI powered Web App Devloper\Daily Planner +PPT\week2\day1\classwork\D1-04-broken-skeleton\index.html
+   5:6   error  <titel> is not a valid element name                                                    element-name
+  10:19  error  Unclosed element '<strong>'                                                            close-order
+  10:36  error  End tag '</p>' seen but there were open elements                                       close-order
+  15:5   error  failed to tokenize "<!-- todo:...", state TEXT failed to consume data or change state  parser-error
+
+D:\TSI AI powered Web App Devloper\Daily Planner +PPT\week2\day1\classwork\D1-06-canteen-news-bughunt\index.html
+  11:6   error  Multiple <h1> are not allowed                        heading-level
+  12:46  error  Unrecognized character reference "&nbps;"            unrecognized-char-ref
+  16:6   error  Unclosed element '<blockquote>'                      close-order
+  18:6   error  Stray end tag '</quote>'                             close-order
+  19:45  error  Unclosed element '<em>'                              close-order
+  19:83  error  End tag '</p>' seen but there were open elements     close-order
+  20:6   error  <h2> element is not permitted as content under <em>  element-permitted-content
+  21:6   error  <p> element is not permitted as content under <em>   element-permitted-content
+  22:6   error  <h2> element is not permitted as content under <em>  element-permitted-content
+  23:6   error  <p> element is not permitted as content under <em>   element-permitted-content
+  24:4   error  End tag '</body>' seen but there were open elements  close-order
+  25:2   error  End tag '</html>' seen but there were open elements  close-order
+
+D:\TSI AI powered Web App Devloper\Daily Planner +PPT\week2\day1\classwork\D1-07-broken-lists\index.html
+  12:6   error  <li> element is not permitted as content under <body>                       element-permitted-content
+  12:6   error  <li> element requires a <ul>, <ol>, <menu> or <template> element as parent  element-permitted-parent
+  13:6   error  <li> element is not permitted as content under <body>                       element-permitted-content
+  13:6   error  <li> element requires a <ul>, <ol>, <menu> or <template> element as parent  element-permitted-parent
+  14:6   error  <li> element is not permitted as content under <body>                       element-permitted-content
+  14:6   error  <li> element requires a <ul>, <ol>, <menu> or <template> element as parent  element-permitted-parent
+  19:8   error  <il> is not a valid element name                                            element-name
+  19:8   error  Unclosed element '<il>'                                                     close-order
+  19:18  error  Stray end tag '</li>'                                                       close-order
+  20:6   error  End tag '</ul>' seen but there were open elements                           close-order
+  31:8   error  <li> element is not permitted as content under <dl>                         element-permitted-content
+  31:8   error  <li> element requires a <ul>, <ol>, <menu> or <template> element as parent  element-permitted-parent
+  33:8   error  <li> element is not permitted as content under <dl>                         element-permitted-content
+  33:8   error  <li> element requires a <ul>, <ol>, <menu> or <template> element as parent  element-permitted-parent
+  35:4   error  End tag '</body>' seen but there were open elements                         close-order
+  36:2   error  End tag '</html>' seen but there were open elements                         close-order
+
+D:\TSI AI powered Web App Devloper\Daily Planner +PPT\week2\day1\classwork\D1-13-broken-signup-form\index.html
+  11:6   error  <form> element must have a submit button  wcag/h32
+  13:21  error  Element references missing id "fullname"  no-missing-references
+  14:10  error  <input> element does not have a <label>   input-missing-label
+
+D:\TSI AI powered Web App Devloper\Daily Planner +PPT\week2\day1\classwork\D1-15-momo-house-repair\index.html
+  14:8  error  Unclosed element '<a>'                               close-order
+  15:6  error  End tag '</p>' seen but there were open elements     close-order
+  16:6  error  <h1> element is not permitted as content under <p>   element-permitted-content
+  17:6  error  <img> is missing required "alt" attribute            wcag/h37
+  18:6  error  <p> element is not permitted as content under <p>    element-permitted-content
+  19:6  error  <h2> element is not permitted as content under <p>   element-permitted-content
+  20:6  error  <ul> element is not permitted as content under <p>   element-permitted-content
+  25:6  error  <p> element is not permitted as content under <p>    element-permitted-content
+  25:9  error  <a> element is not permitted as a descendant of <a>  element-permitted-content
+  26:6  error  <p> element is not permitted as content under <p>    element-permitted-content
+  27:4  error  End tag '</body>' seen but there were open elements  close-order
+  28:2  error  End tag '</html>' seen but there were open elements  close-order
+
+D:\TSI AI powered Web App Devloper\Daily Planner +PPT\week2\day1\classwork\D1-15-momo-house-repair\menu.html
+  22:6  error  Heading level can only increase by one, expected <h2> but got <h4>          heading-level
+  32:6  error  <li> element is not permitted as content under <body>                       element-permitted-content
+  32:6  error  <li> element requires a <ul>, <ol>, <menu> or <template> element as parent  element-permitted-parent
+  33:6  error  <li> element is not permitted as content under <body>                       element-permitted-content
+  33:6  error  <li> element requires a <ul>, <ol>, <menu> or <template> element as parent  element-permitted-parent
+
+D:\TSI AI powered Web App Devloper\Daily Planner +PPT\week2\day1\classwork\D1-15-momo-house-repair\order.html
+  24:21  error  Element references missing id "mobile"   no-missing-references
+  25:10  error  <input> element does not have a <label>  input-missing-label
+
+D:\TSI AI powered Web App Devloper\Daily Planner +PPT\week2\day1\classwork\fast-finishers\D1-FF4-evil-page-bughunt\index.html
+   9:29  error  Stray end tag '</p>'                                                        close-order
+  11:6   error  <img> is missing required "alt" attribute                                   wcag/h37
+  12:41  error  <a> element is not permitted as a descendant of <a>                         element-permitted-content
+  18:24  error  Unrecognized character reference "&nbps;"                                   unrecognized-char-ref
+  20:6   error  Stray end tag '</p>'                                                        close-order
+  21:13  error  Duplicate ID "menu"                                                         no-dup-id
+  23:8   error  <li> element is not permitted as content under <div>                        element-permitted-content
+  23:8   error  <li> element requires a <ul>, <ol>, <menu> or <template> element as parent  element-permitted-parent
+  24:8   error  <li> element is not permitted as content under <div>                        element-permitted-content
+  24:8   error  <li> element requires a <ul>, <ol>, <menu> or <template> element as parent  element-permitted-parent
+  30:10  error  <input> element does not have a <label>                                     input-missing-label
+
+D:\TSI AI powered Web App Devloper\Daily Planner +PPT\week2\day1\classwork\fast-finishers\D1-FF5-notice-board-bughunt\index.html
+  11:4   error  <head> element is not permitted as content under <head>             element-permitted-content
+  11:4   error  <head> element must have <title> as content                         element-required-content
+  22:8   error  <ul> element is not permitted as content under <ul>                 element-permitted-content
+  28:6   error  End tag for <hr> must be omitted                                    void-content
+  29:6   error  Heading level can only increase by one, expected <h3> but got <h5>  heading-level
+  35:8   error  <td> element is not permitted as content under <table>              element-permitted-content
+  35:23  error  <td> element is not permitted as content under <table>              element-permitted-content
+  39:6   error  Unclosed element '<ol>'                                             close-order
+  42:6   error  Stray end tag '</ul>'                                               close-order
+  43:4   error  End tag '</body>' seen but there were open elements                 close-order
+  44:2   error  End tag '</html>' seen but there were open elements                 close-order
+  45:2   error  <p> element is not permitted as content under <ol>                  element-permitted-content
+
+D:\TSI AI powered Web App Devloper\Daily Planner +PPT\week2\day1\homework\D1-HW1-kathmandu-treks-repair\booking.html
+  23:6   error  <form> element must have a submit button  wcag/h32
+  25:21  error  Element references missing id "name"      no-missing-references
+  26:10  error  <input> element does not have a <label>   input-missing-label
+
+D:\TSI AI powered Web App Devloper\Daily Planner +PPT\week2\day1\homework\D1-HW1-kathmandu-treks-repair\index.html
+  6:12  error  failed to tokenize "Kathmandu ...", expected </title>  parser-error
+
+D:\TSI AI powered Web App Devloper\Daily Planner +PPT\week2\day1\homework\D1-HW4-thamel-guesthouse-replay\booking.html
+  17:8   error  Element <caption> must be used before <tr> in this context  element-permitted-order
+  19:8   error  <td> element is not permitted as content under <table>      element-permitted-content
+  19:23  error  <td> element is not permitted as content under <table>      element-permitted-content
+  19:41  error  <td> element is not permitted as content under <table>      element-permitted-content
+  23:6   error  <form> element must have a submit button                    wcag/h32
+  38:10  error  <option> element is not permitted as content under <p>      element-permitted-content
+
+D:\TSI AI powered Web App Devloper\Daily Planner +PPT\week2\day1\homework\D1-HW4-thamel-guesthouse-replay\index.html
+  1:1  error  Document is missing doctype                               missing-doctype
+  2:4  error  <head> element must have <title> as content               element-required-content
+  7:6  error  <title> element is not permitted as content under <body>  element-permitted-content
+  7:6  error  <title> element requires a <head> element as parent       element-permitted-parent
+  9:6  error  <img> is missing required "alt" attribute                 wcag/h37
+
+✖ 94 problems (94 errors, 0 warnings)
+  3 errors and 0 warnings potentially fixable with the `--fix` option.
+
+More information:
+  https://html-validate.org/rules/missing-doctype.html
+  https://html-validate.org/rules/element-name.html
+  https://html-validate.org/rules/close-order.html
+  https://html-validate.org/rules/heading-level.html
+  https://html-validate.org/rules/unrecognized-char-ref.html
+  https://html-validate.org/rules/element-permitted-content.html
+  https://html-validate.org/rules/element-permitted-parent.html
+  https://html-validate.org/rules/wcag/h32.html
+  https://html-validate.org/rules/no-missing-references.html
+  https://html-validate.org/rules/input-missing-label.html
+  https://html-validate.org/rules/wcag/h37.html
+  https://html-validate.org/rules/no-dup-id.html
+  https://html-validate.org/rules/element-required-content.html
+  https://html-validate.org/rules/void-content.html
+  https://html-validate.org/rules/element-permitted-order.html
+

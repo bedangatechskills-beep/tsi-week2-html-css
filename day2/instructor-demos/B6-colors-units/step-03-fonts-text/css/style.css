@@ -1,0 +1,50 @@
+/* Paint shop: four ways to name a colour */
+body {
+  background-color: rgb(253, 246, 236);
+}
+
+h1 {
+  color: #990011;
+}
+
+.price {
+  color: navy;
+}
+
+.price-card {
+  background-color: rgba(20, 33, 61, 0.1);
+}
+
+/* Measuring tape: px, %, rem, em */
+.price-card {
+  width: 60%;
+  padding: 16px;
+}
+
+h1 {
+  font-size: 2.5rem;
+}
+
+.price {
+  font-size: 1.25rem;
+}
+
+.note {
+  font-size: 0.875rem;
+  padding: 1em;
+}
+
+/* Fonts and text */
+body {
+  font-family: "Segoe UI", Arial, sans-serif;
+}
+
+h1 {
+  text-align: center;
+  letter-spacing: 2px;
+}
+
+.note {
+  line-height: 1.6;
+  text-decoration: underline;
+}

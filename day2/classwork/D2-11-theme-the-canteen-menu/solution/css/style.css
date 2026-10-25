@@ -1,0 +1,38 @@
+/* D2-11 Theme the canteen menu
+   Palette: navy #14213D · cherry #990011 · cream #FDF6EC */
+
+body {
+  font-family: "Segoe UI", Tahoma, Arial, sans-serif;
+  font-size: 1rem;
+  line-height: 1.6;
+  background-color: #fdf6ec;
+  color: #14213d;
+  margin: 0 auto;
+  max-width: 640px;
+  padding: 16px;
+}
+
+h1 {
+  font-size: 2.5rem;
+  color: #990011;
+}
+
+h2 {
+  font-size: 1.5rem;
+  color: #990011;
+}
+
+th {
+  background-color: #14213d;
+  color: #fdf6ec;
+}
+
+td,
+th {
+  border: 1px solid #14213d;
+  padding: 8px 16px;
+}
+
+.note {
+  font-size: 0.875rem;
+}

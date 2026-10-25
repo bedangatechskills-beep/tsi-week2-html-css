@@ -1,0 +1,47 @@
+/* Outfit 3: Night market. Dark sky, gold light, a typewriter font. */
+body {
+  background-color: #0f1626;
+  color: #e8e8e8;
+  font-family: "Courier New", Courier, monospace;
+  margin: 0;
+  padding: 24px;
+}
+
+h1 {
+  color: #f5b700;
+  font-size: 3rem;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  margin: 0;
+}
+
+h2 {
+  color: #f5b700;
+}
+
+nav a {
+  display: inline-block;
+  color: #f5b700;
+  border: 2px solid #f5b700;
+  padding: 6px 12px;
+  margin: 8px 8px 0 0;
+  text-decoration: none;
+}
+
+main {
+  max-width: 720px;
+}
+
+li {
+  line-height: 1.8;
+}
+
+blockquote {
+  color: #9ad1ff;
+}
+
+footer {
+  color: #8a93a6;
+  border-top: 1px dashed #f5b700;
+  margin-top: 24px;
+}

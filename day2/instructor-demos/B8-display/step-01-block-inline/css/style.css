@@ -1,0 +1,31 @@
+/* The queue vs the bench */
+body {
+  font-family: Arial, sans-serif;
+}
+
+.box {
+  background-color: #14213d;
+  color: white;
+  padding: 8px;
+  margin: 8px 0;
+}
+
+.seat {
+  background-color: #990011;
+  color: white;
+  padding: 12px;
+  margin-top: 30px;
+  width: 200px;
+}
+
+.keeps-size {
+  display: inline-block;
+}
+
+.gone {
+  display: none;
+}
+
+.hidden {
+  visibility: hidden;
+}

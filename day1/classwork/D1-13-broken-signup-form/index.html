@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TSI Course Signup</title>
+  </head>
+  <body>
+    <h1>TSI course signup</h1>
+    <p>Join the AI-Powered Full Stack Developer course at Tech Skills Institute.</p>
+    <form method="get">
+      <p>
+        <label for="fullname">Full name</label>
+        <input type="text" id="name" name="fullname" required>
+      </p>
+      <p>
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" required>
+      </p>
+      <p>
+        <label for="phone">Phone</label>
+        <input type="number" id="phone" name="phone" placeholder="98XXXXXXXX">
+      </p>
+      <p>Batch:</p>
+      <p>
+        <input type="radio" id="morning" name="batch1">
+        <label for="morning">Morning (7 to 10 AM)</label>
+        <input type="radio" id="evening" name="batch2">
+        <label for="evening">Evening (5 to 8 PM)</label>
+      </p>
+      <p>
+        <label for="message">Why do you want to join?</label><br>
+        <textarea id="message" name="message" rows="4" cols="40" />
+      </p>
+    </form>
+    <button type="submit">Sign up</button>
+    <p>Questions? Call the TSI front desk.</p>
+  </body>
+</html>

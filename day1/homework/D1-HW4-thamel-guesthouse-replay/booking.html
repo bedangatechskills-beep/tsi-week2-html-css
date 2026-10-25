@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book a Room — Thamel Guesthouse</title>
+    <style>
+      /* Lines around the cells, so you can see them. CSS comes on Day 2. */
+      table, th, td { border: 1px solid #555; border-collapse: collapse; padding: 6px 10px; }
+    </style>
+  </head>
+  <body>
+    <p><a href="index.html">Home</a></p>
+    <h1>Book a room</h1>
+    <table>
+      <tr><th scope="col">Room</th><th scope="col">Price</th><th scope="col">Breakfast</th></tr>
+      <caption>Room rates per night</caption>
+      <tr><td>Single</td><td>Rs. 1,800</td><td>No</td></tr>
+      <td>Double</td><td>Rs. 2,500</td><td>Yes</td>
+      <tr><td>Deluxe</td><td>Rs. 3,500</td><td>Yes</td></tr>
+    </table>
+    <h2>Booking form</h2>
+    <form method="get">
+      <p>
+        <label for="guest">Your name</label>
+        <input type="text" id="guest" name="guest" requred>
+      </p>
+      <p>
+        <label for="email">Email</label>
+        <input type="text" id="email" name="email" required>
+      </p>
+      <p>
+        <label for="room">Room</label>
+        <select id="room">
+          <option value="single">Single</option>
+          <option value="double">Double</option>
+        </select>
+        <option value="deluxe">Deluxe</option>
+      </p>
+      <fieldset>
+        <legend>Room type</legend>
+        <input type="radio" id="standard" name="type1" value="standard">
+        <label for="standard">Standard</label>
+        <input type="radio" id="balcony" name="type2" value="balcony">
+        <label for="balcony">With balcony</label>
+      </fieldset>
+    </form>
+    <button type="submit">Book now</button>
+  </body>
+</html>

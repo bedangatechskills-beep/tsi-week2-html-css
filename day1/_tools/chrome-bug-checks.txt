@@ -1,0 +1,120 @@
+PASS  screenshots taken
+PASS  D1-04 b1 quirks mode (no doctype)
+PASS  D1-04 b2 no lang
+PASS  D1-04 b3 tab has no title + text on page
+PASS  D1-04 b4 p inside h1 (giant)
+PASS  D1-04 b5 strong not inside p (moved)
+PASS  D1-04 b6 footer gone
+PASS  D1-04 sol ok
+PASS  D1-06 b1 two h1
+PASS  D1-06 b2 <p> vanished, sentence split
+PASS  D1-06 b3 &nbps; literal
+PASS  D1-06 b4 blockquote swallows rest
+PASS  D1-06 b5 em swallows rest (headings italic)
+PASS  D1-06 sol ok
+PASS  D1-07 b1 li directly in body
+PASS  D1-07 b2 steps in ul (no ol)
+PASS  D1-07 b3 <il> element, no bullet
+PASS  D1-07 b4 li inside dl
+PASS  D1-07 sol ok
+PASS  D1-09 b1 logo broken
+PASS  D1-09 b2 about.html 404
+PASS  D1-09 b3 www.wikipedia.org 404
+PASS  D1-09 b4 Home 404 from pages/
+PASS  D1-09 b5 thamel broken from pages/
+PASS  D1-09 b6 C:\ path is not an http link
+PASS  D1-09 sol index.html ok
+PASS  D1-09 sol pages/about.html ok
+PASS  D1-09 sol pages/menu.html ok
+PASS  D1-11 b1 header td
+PASS  D1-11 b2 11:00 row short
+PASS  D1-11 b3 lunch colspan 1
+PASS  D1-11 b4 2:00 row has extra cell
+PASS  D1-11 b5 tea text above table
+PASS  D1-11 sol rows add up
+PASS  D1-13 b1 label for=fullname has no input
+PASS  D1-13 b2 phone is number
+PASS  D1-13 b3 radio names differ
+PASS  D1-13 b4 radios no value
+PASS  D1-13 b5 textarea swallows rest
+PASS  D1-13 b6 (after textarea repair) button outside form
+PASS  D1-13 sol submit URL
+PASS  D1-13 b4 URL shows batch=on
+PASS  D1-15 b1 menu.htm 404
+PASS  D1-15 b2 hero img no alt
+PASS  D1-15 b3 h1 is inside a link
+PASS  D1-15 b4 colspan=2 row stops short
+PASS  D1-15 b5 specials li in body
+PASS  D1-15 b6 h4 after h1
+PASS  D1-15 b7 label for=mobile -> nothing
+PASS  D1-15 b8 textarea swallows, no button
+PASS  D1-15 b9 chef img broken
+PASS  D1-15 b10 instagram 404
+PASS  D1-15 sol index.html ok
+PASS  D1-15 sol menu.html ok
+PASS  D1-15 sol order.html ok
+PASS  D1-15 sol about.html ok
+PASS  FF4 b1 img no alt
+PASS  FF4 b2 nested a repaired by browser
+PASS  FF4 b3 ul not in p; empty p made
+PASS  FF4 b4 duplicate id
+PASS  FF4 b5 li in div
+PASS  FF4 b6 input has no label
+PASS  FF4 b7 h1 pulled out of p
+PASS  FF4 b8 &nbps; literal
+PASS  FF4 sol ok
+PASS  FF5 b1 one head in DOM, page renders
+PASS  FF5 b2 contact p moved into body
+PASS  FF5 b3 h5
+PASS  FF5 b4 h4 used for bold
+PASS  FF5 b5 br br br
+PASS  FF5 b6 no hr
+PASS  FF5 b7 ul directly in ul
+PASS  FF5 b8 ol never closed (contact inside ol)
+PASS  FF5 b9 text node in ul
+PASS  FF5 b10 image broken
+PASS  FF5 b11 #events has no target
+PASS  FF5 b12 browser invented tr
+PASS  FF5 sol ok
+PASS  HW1 b1 blank page
+PASS  HW1 b2 Everest.svg capital (H)
+PASS  HW1 b3 href=treks
+PASS  HW1 b4 nested ul outside li
+PASS  HW1 b5 header td
+PASS  HW1 b6 leftover cell
+PASS  HW1 b7 #form target missing
+PASS  HW1 b7 (booking has no id=form)
+PASS  HW1 b8 label for=name nothing
+PASS  HW1 b9 phone number
+PASS  HW1 b10 date text
+PASS  HW1 b11 radio names
+PASS  HW1 b12 reset button
+PASS  HW1 sol index.html ok
+PASS  HW1 sol treks.html ok
+PASS  HW1 sol booking.html ok
+PASS  HW1 sol anchor lands on form
+PASS  HW2 starter index.html works
+PASS  HW2 starter menu.html works
+PASS  HW2 starter order.html works
+PASS  HW2 starter about.html works
+PASS  HW2 sol index.html nav has catering + links ok
+PASS  HW2 sol menu.html nav has catering + links ok
+PASS  HW2 sol order.html nav has catering + links ok
+PASS  HW2 sol catering.html nav has catering + links ok
+PASS  HW2 sol about.html nav has catering + links ok
+PASS  HW4 b1 quirks
+PASS  HW4 b2 title in body, tab still shows it
+PASS  HW4 b3 Room-Deluxe loads on Windows (H)
+PASS  HW4 b4 img without alt
+PASS  HW4 b5 tr invented
+PASS  HW4 b6 caption not first in source but shown
+PASS  HW4 b7 email type text
+PASS  HW4 b8 deluxe not in select
+PASS  HW4 b9 name not required
+PASS  HW4 b10 select no name
+PASS  HW4 b11 radio names differ
+PASS  HW4 b12 button outside form
+PASS  HW4 sol submit URL
+PASS  no JS errors
+
+118 PASS, 0 FAIL; 107 pages rendered into D:\TSI AI powered Web App Devloper\Daily Planner +PPT\week2\day1\_tools\screens

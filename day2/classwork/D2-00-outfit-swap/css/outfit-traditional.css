@@ -1,0 +1,51 @@
+/* Outfit 1: Traditional. Cream paper, cherry red, a serif font. */
+body {
+  background-color: #fdf6ec;
+  color: #2a3f63;
+  font-family: Georgia, "Times New Roman", serif;
+  margin: 0;
+}
+
+header {
+  text-align: center;
+  padding: 24px;
+  border-bottom: 6px double #990011;
+}
+
+h1 {
+  color: #990011;
+  font-size: 3rem;
+  margin: 0;
+}
+
+.tagline {
+  font-style: italic;
+}
+
+nav a {
+  color: #990011;
+  margin: 0 12px;
+}
+
+main {
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 16px;
+}
+
+h2 {
+  color: #990011;
+  border-bottom: 1px solid #990011;
+}
+
+blockquote {
+  font-style: italic;
+  border-left: 4px solid #990011;
+  padding-left: 16px;
+}
+
+footer {
+  text-align: center;
+  padding: 16px;
+  border-top: 6px double #990011;
+}

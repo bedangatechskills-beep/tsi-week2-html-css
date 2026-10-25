@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book a Trek — Kathmandu Treks</title>
+  </head>
+  <body>
+    <p><a href="index.html">Home</a> | <a href="treks.html">Our treks</a> | <a href="booking.html">Book a trek</a></p>
+    <h1>Book a trek</h1>
+    <h2>Before you book</h2>
+    <p>Every trek starts and ends at our office in Thamel. We pick you up from your hotel in Kathmandu.</p>
+    <p>You need a TIMS card and a national park permit. We get them for you. Bring 4 passport photos.</p>
+    <p>Pack warm clothes. Nights in the mountains are cold, even in spring.</p>
+    <img src="images/langtang.svg" alt="The green Langtang valley under snowy peaks" width="300">
+    <h2>What is included</h2>
+    <ul>
+      <li>A licensed local guide</li>
+      <li>Tea-house rooms and three meals a day</li>
+      <li>Bus or jeep to the start of the trek</li>
+    </ul>
+    <h2>Booking form</h2>
+    <form id="booking-form" method="get">
+      <p>
+        <label for="name">Full name</label>
+        <input type="text" id="fullname" name="fullname" required>
+      </p>
+      <p>
+        <label for="phone">Phone</label>
+        <input type="number" id="phone" name="phone" required>
+      </p>
+      <p>
+        <label for="start-date">Start date</label>
+        <input type="text" id="start-date" name="start-date" required>
+      </p>
+      <fieldset>
+        <legend>Which trek?</legend>
+        <input type="radio" id="ebc" name="trek1" value="everest-base-camp">
+        <label for="ebc">Everest Base Camp</label><br>
+        <input type="radio" id="abc" name="trek2" value="annapurna-base-camp">
+        <label for="abc">Annapurna Base Camp</label><br>
+        <input type="radio" id="ltv" name="trek3" value="langtang-valley">
+        <label for="ltv">Langtang Valley</label>
+      </fieldset>
+      <p>
+        <button type="reset">Book now</button>
+      </p>
+    </form>
+  </body>
+</html>

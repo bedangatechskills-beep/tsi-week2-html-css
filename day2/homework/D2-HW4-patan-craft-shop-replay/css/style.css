@@ -1,0 +1,51 @@
+/* Patan Craft Shop */
+body {
+  margin: 0;
+  background-color: #fff8ee;
+  color: #3b2a1a;
+  font-family: Georgia, "Times New Roman", serif;
+}
+
+#Header {
+  background-color: #7a2e12;
+  color: white;
+  text-align: center;
+  padding: 16px;
+}
+
+.badge {
+  visibility: hidden;
+  background-color: #990011;
+  color: white;
+  font-size: 1.5rem;
+  text-align: center;
+  padding: 24px;
+  margin: 0;
+}
+
+.banner {
+  width: 120%;
+  background-color: rgb(255, 200);
+  text-align: center;
+  padding: 16px 0;
+}
+
+main {
+  max-width: 760px;
+  margin: 0 auto;
+  padding: 0 16px;
+}
+
+.card {
+  height: 100px;
+  padding: 10px 20px 10px 20px 5px;
+  background-color: white;
+  border: 1px solid #c8a27c;
+  margin: 16px 0;
+}
+
+footer {
+  text-align: center;
+  padding: 16px;
+  border-top: 4px solid #7a2e12;
+}

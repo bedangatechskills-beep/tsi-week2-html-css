@@ -1,0 +1,22 @@
+/* The CSS parcel. You learn CSS on Day 2. Today, just count this file. */
+body {
+  font-family: Arial, sans-serif;
+  max-width: 900px;
+  margin: 20px auto;
+  padding: 0 16px;
+  color: #14213D;
+}
+
+h1 {
+  color: #990011;
+}
+
+.photos img {
+  border: 2px solid #14213D;
+  border-radius: 8px;
+  margin: 4px;
+}
+
+.note {
+  font-weight: bold;
+}
